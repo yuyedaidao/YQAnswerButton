@@ -14,7 +14,34 @@
 		21CB58D91FAAC8AB00A74399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D71FAAC8AB00A74399 /* LaunchScreen.storyboard */; };
 		21CB58FE1FAAC96300A74399 /* YQAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */; };
 		21DF01A21FAB364C0092407C /* yqiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */; };
+		21DF01AE1FAB6EA60092407C /* YQAnswerButtonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DF01AC1FAB6EA50092407C /* YQAnswerButtonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DF01B11FAB6EA60092407C /* YQAnswerButtonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */; };
+		21DF01B31FAB6EA60092407C /* YQAnswerButtonFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21DF01AF1FAB6EA60092407C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CB58C31FAAC8AA00A74399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DF01A91FAB6EA40092407C;
+			remoteInfo = YQAnswerButtonFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21DF01B21FAB6EA60092407C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				21DF01B31FAB6EA60092407C /* YQAnswerButtonFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQAnswerButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +53,21 @@
 		21CB58DA1FAAC8AB00A74399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAnswerButton.swift; sourceTree = "<group>"; };
 		21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yqiconfont.ttf; sourceTree = "<group>"; };
+		21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YQAnswerButtonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF01AC1FAB6EA50092407C /* YQAnswerButtonFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnswerButtonFramework.h; sourceTree = "<group>"; };
+		21DF01AD1FAB6EA60092407C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		21CB58C81FAAC8AB00A74399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF01B11FAB6EA60092407C /* YQAnswerButtonFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DF01A61FAB6EA40092407C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +82,7 @@
 			children = (
 				21CB58FC1FAAC93900A74399 /* Classes */,
 				21CB58CD1FAAC8AB00A74399 /* YQAnswerButton */,
+				21DF01AB1FAB6EA40092407C /* YQAnswerButtonFramework */,
 				21CB58CC1FAAC8AB00A74399 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */,
+				21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +118,27 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		21DF01AB1FAB6EA40092407C /* YQAnswerButtonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				21DF01AC1FAB6EA50092407C /* YQAnswerButtonFramework.h */,
+				21DF01AD1FAB6EA60092407C /* Info.plist */,
+			);
+			path = YQAnswerButtonFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21DF01A71FAB6EA40092407C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DF01AE1FAB6EA60092407C /* YQAnswerButtonFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		21CB58CA1FAAC8AB00A74399 /* YQAnswerButton */ = {
@@ -88,15 +148,35 @@
 				21CB58C71FAAC8AB00A74399 /* Sources */,
 				21CB58C81FAAC8AB00A74399 /* Frameworks */,
 				21CB58C91FAAC8AB00A74399 /* Resources */,
+				21DF01B21FAB6EA60092407C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				21DF01B01FAB6EA60092407C /* PBXTargetDependency */,
 			);
 			name = YQAnswerButton;
 			productName = YQRadioButton;
 			productReference = 21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */;
 			productType = "com.apple.product-type.application";
+		};
+		21DF01A91FAB6EA40092407C /* YQAnswerButtonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DF01B41FAB6EA70092407C /* Build configuration list for PBXNativeTarget "YQAnswerButtonFramework" */;
+			buildPhases = (
+				21DF01A51FAB6EA40092407C /* Sources */,
+				21DF01A61FAB6EA40092407C /* Frameworks */,
+				21DF01A71FAB6EA40092407C /* Headers */,
+				21DF01A81FAB6EA40092407C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQAnswerButtonFramework;
+			productName = YQAnswerButtonFramework;
+			productReference = 21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +189,10 @@
 				ORGANIZATIONNAME = Wang;
 				TargetAttributes = {
 					21CB58CA1FAAC8AB00A74399 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					21DF01A91FAB6EA40092407C = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -128,6 +212,7 @@
 			projectRoot = "";
 			targets = (
 				21CB58CA1FAAC8AB00A74399 /* YQAnswerButton */,
+				21DF01A91FAB6EA40092407C /* YQAnswerButtonFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -144,6 +229,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21DF01A81FAB6EA40092407C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -157,7 +249,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21DF01A51FAB6EA40092407C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21DF01B01FAB6EA60092407C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DF01A91FAB6EA40092407C /* YQAnswerButtonFramework */;
+			targetProxy = 21DF01AF1FAB6EA60092407C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		21CB58D21FAAC8AB00A74399 /* Main.storyboard */ = {
@@ -318,6 +425,56 @@
 			};
 			name = Release;
 		};
+		21DF01B51FAB6EA70092407C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GP4MMMES25;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YQAnswerButtonFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQAnswerButtonFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21DF01B61FAB6EA70092407C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GP4MMMES25;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YQAnswerButtonFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQAnswerButtonFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -335,6 +492,15 @@
 			buildConfigurations = (
 				21CB58F41FAAC8AB00A74399 /* Debug */,
 				21CB58F51FAAC8AB00A74399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DF01B41FAB6EA70092407C /* Build configuration list for PBXNativeTarget "YQAnswerButtonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DF01B51FAB6EA70092407C /* Debug */,
+				21DF01B61FAB6EA70092407C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
