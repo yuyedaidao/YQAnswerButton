@@ -12,59 +12,24 @@
 		21CB58D41FAAC8AB00A74399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D21FAAC8AB00A74399 /* Main.storyboard */; };
 		21CB58D61FAAC8AB00A74399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D51FAAC8AB00A74399 /* Assets.xcassets */; };
 		21CB58D91FAAC8AB00A74399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D71FAAC8AB00A74399 /* LaunchScreen.storyboard */; };
-		21CB58E41FAAC8AB00A74399 /* YQRadioButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58E31FAAC8AB00A74399 /* YQRadioButtonTests.swift */; };
-		21CB58EF1FAAC8AB00A74399 /* YQRadioButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58EE1FAAC8AB00A74399 /* YQRadioButtonUITests.swift */; };
+		21CB58FE1FAAC96300A74399 /* YQAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */; };
+		21DF01A21FAB364C0092407C /* yqiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		21CB58E01FAAC8AB00A74399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21CB58C31FAAC8AA00A74399 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 21CB58CA1FAAC8AB00A74399;
-			remoteInfo = YQRadioButton;
-		};
-		21CB58EB1FAAC8AB00A74399 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21CB58C31FAAC8AA00A74399 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 21CB58CA1FAAC8AB00A74399;
-			remoteInfo = YQRadioButton;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		21CB58CB1FAAC8AB00A74399 /* YQRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQAnswerButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CB58CE1FAAC8AB00A74399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21CB58D01FAAC8AB00A74399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21CB58D31FAAC8AB00A74399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21CB58D51FAAC8AB00A74399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21CB58D81FAAC8AB00A74399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21CB58DA1FAAC8AB00A74399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21CB58DF1FAAC8AB00A74399 /* YQRadioButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQRadioButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21CB58E31FAAC8AB00A74399 /* YQRadioButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQRadioButtonTests.swift; sourceTree = "<group>"; };
-		21CB58E51FAAC8AB00A74399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21CB58EA1FAAC8AB00A74399 /* YQRadioButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQRadioButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21CB58EE1FAAC8AB00A74399 /* YQRadioButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQRadioButtonUITests.swift; sourceTree = "<group>"; };
-		21CB58F01FAAC8AB00A74399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAnswerButton.swift; sourceTree = "<group>"; };
+		21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yqiconfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		21CB58C81FAAC8AB00A74399 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21CB58DC1FAAC8AB00A74399 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21CB58E71FAAC8AB00A74399 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,9 +42,8 @@
 		21CB58C21FAAC8AA00A74399 = {
 			isa = PBXGroup;
 			children = (
-				21CB58CD1FAAC8AB00A74399 /* YQRadioButton */,
-				21CB58E21FAAC8AB00A74399 /* YQRadioButtonTests */,
-				21CB58ED1FAAC8AB00A74399 /* YQRadioButtonUITests */,
+				21CB58FC1FAAC93900A74399 /* Classes */,
+				21CB58CD1FAAC8AB00A74399 /* YQAnswerButton */,
 				21CB58CC1FAAC8AB00A74399 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +51,12 @@
 		21CB58CC1FAAC8AB00A74399 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21CB58CB1FAAC8AB00A74399 /* YQRadioButton.app */,
-				21CB58DF1FAAC8AB00A74399 /* YQRadioButtonTests.xctest */,
-				21CB58EA1FAAC8AB00A74399 /* YQRadioButtonUITests.xctest */,
+				21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21CB58CD1FAAC8AB00A74399 /* YQRadioButton */ = {
+		21CB58CD1FAAC8AB00A74399 /* YQAnswerButton */ = {
 			isa = PBXGroup;
 			children = (
 				21CB58CE1FAAC8AB00A74399 /* AppDelegate.swift */,
@@ -104,33 +66,24 @@
 				21CB58D71FAAC8AB00A74399 /* LaunchScreen.storyboard */,
 				21CB58DA1FAAC8AB00A74399 /* Info.plist */,
 			);
-			path = YQRadioButton;
+			path = YQAnswerButton;
 			sourceTree = "<group>";
 		};
-		21CB58E21FAAC8AB00A74399 /* YQRadioButtonTests */ = {
+		21CB58FC1FAAC93900A74399 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				21CB58E31FAAC8AB00A74399 /* YQRadioButtonTests.swift */,
-				21CB58E51FAAC8AB00A74399 /* Info.plist */,
+				21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */,
+				21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */,
 			);
-			path = YQRadioButtonTests;
-			sourceTree = "<group>";
-		};
-		21CB58ED1FAAC8AB00A74399 /* YQRadioButtonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				21CB58EE1FAAC8AB00A74399 /* YQRadioButtonUITests.swift */,
-				21CB58F01FAAC8AB00A74399 /* Info.plist */,
-			);
-			path = YQRadioButtonUITests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21CB58CA1FAAC8AB00A74399 /* YQRadioButton */ = {
+		21CB58CA1FAAC8AB00A74399 /* YQAnswerButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21CB58F31FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQRadioButton" */;
+			buildConfigurationList = 21CB58F31FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQAnswerButton" */;
 			buildPhases = (
 				21CB58C71FAAC8AB00A74399 /* Sources */,
 				21CB58C81FAAC8AB00A74399 /* Frameworks */,
@@ -140,46 +93,10 @@
 			);
 			dependencies = (
 			);
-			name = YQRadioButton;
+			name = YQAnswerButton;
 			productName = YQRadioButton;
-			productReference = 21CB58CB1FAAC8AB00A74399 /* YQRadioButton.app */;
+			productReference = 21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */;
 			productType = "com.apple.product-type.application";
-		};
-		21CB58DE1FAAC8AB00A74399 /* YQRadioButtonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21CB58F61FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQRadioButtonTests" */;
-			buildPhases = (
-				21CB58DB1FAAC8AB00A74399 /* Sources */,
-				21CB58DC1FAAC8AB00A74399 /* Frameworks */,
-				21CB58DD1FAAC8AB00A74399 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21CB58E11FAAC8AB00A74399 /* PBXTargetDependency */,
-			);
-			name = YQRadioButtonTests;
-			productName = YQRadioButtonTests;
-			productReference = 21CB58DF1FAAC8AB00A74399 /* YQRadioButtonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		21CB58E91FAAC8AB00A74399 /* YQRadioButtonUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21CB58F91FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQRadioButtonUITests" */;
-			buildPhases = (
-				21CB58E61FAAC8AB00A74399 /* Sources */,
-				21CB58E71FAAC8AB00A74399 /* Frameworks */,
-				21CB58E81FAAC8AB00A74399 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21CB58EC1FAAC8AB00A74399 /* PBXTargetDependency */,
-			);
-			name = YQRadioButtonUITests;
-			productName = YQRadioButtonUITests;
-			productReference = 21CB58EA1FAAC8AB00A74399 /* YQRadioButtonUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,19 +112,9 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
-					21CB58DE1FAAC8AB00A74399 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 21CB58CA1FAAC8AB00A74399;
-					};
-					21CB58E91FAAC8AB00A74399 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 21CB58CA1FAAC8AB00A74399;
-					};
 				};
 			};
-			buildConfigurationList = 21CB58C61FAAC8AA00A74399 /* Build configuration list for PBXProject "YQRadioButton" */;
+			buildConfigurationList = 21CB58C61FAAC8AA00A74399 /* Build configuration list for PBXProject "YQAnswerButton" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21CB58CA1FAAC8AB00A74399 /* YQRadioButton */,
-				21CB58DE1FAAC8AB00A74399 /* YQRadioButtonTests */,
-				21CB58E91FAAC8AB00A74399 /* YQRadioButtonUITests */,
+				21CB58CA1FAAC8AB00A74399 /* YQAnswerButton */,
 			);
 		};
 /* End PBXProject section */
@@ -232,23 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DF01A21FAB364C0092407C /* yqiconfont.ttf in Resources */,
 				21CB58D91FAAC8AB00A74399 /* LaunchScreen.storyboard in Resources */,
 				21CB58D61FAAC8AB00A74399 /* Assets.xcassets in Resources */,
 				21CB58D41FAAC8AB00A74399 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21CB58DD1FAAC8AB00A74399 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21CB58E81FAAC8AB00A74399 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,41 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CB58FE1FAAC96300A74399 /* YQAnswerButton.swift in Sources */,
 				21CB58D11FAAC8AB00A74399 /* ViewController.swift in Sources */,
 				21CB58CF1FAAC8AB00A74399 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21CB58DB1FAAC8AB00A74399 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21CB58E41FAAC8AB00A74399 /* YQRadioButtonTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21CB58E61FAAC8AB00A74399 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21CB58EF1FAAC8AB00A74399 /* YQRadioButtonUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		21CB58E11FAAC8AB00A74399 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 21CB58CA1FAAC8AB00A74399 /* YQRadioButton */;
-			targetProxy = 21CB58E01FAAC8AB00A74399 /* PBXContainerItemProxy */;
-		};
-		21CB58EC1FAAC8AB00A74399 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 21CB58CA1FAAC8AB00A74399 /* YQRadioButton */;
-			targetProxy = 21CB58EB1FAAC8AB00A74399 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		21CB58D21FAAC8AB00A74399 /* Main.storyboard */ = {
@@ -428,7 +292,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GP4MMMES25;
-				INFOPLIST_FILE = YQRadioButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YQAnswerButton/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQRadioButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,7 +308,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GP4MMMES25;
-				INFOPLIST_FILE = YQRadioButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/YQAnswerButton/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQRadioButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,76 +318,10 @@
 			};
 			name = Release;
 		};
-		21CB58F71FAAC8AB00A74399 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GP4MMMES25;
-				INFOPLIST_FILE = YQRadioButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQRadioButtonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQRadioButton.app/YQRadioButton";
-			};
-			name = Debug;
-		};
-		21CB58F81FAAC8AB00A74399 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GP4MMMES25;
-				INFOPLIST_FILE = YQRadioButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQRadioButtonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQRadioButton.app/YQRadioButton";
-			};
-			name = Release;
-		};
-		21CB58FA1FAAC8AB00A74399 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GP4MMMES25;
-				INFOPLIST_FILE = YQRadioButtonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQRadioButtonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YQRadioButton;
-			};
-			name = Debug;
-		};
-		21CB58FB1FAAC8AB00A74399 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GP4MMMES25;
-				INFOPLIST_FILE = YQRadioButtonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQRadioButtonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YQRadioButton;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21CB58C61FAAC8AA00A74399 /* Build configuration list for PBXProject "YQRadioButton" */ = {
+		21CB58C61FAAC8AA00A74399 /* Build configuration list for PBXProject "YQAnswerButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21CB58F11FAAC8AB00A74399 /* Debug */,
@@ -530,29 +330,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21CB58F31FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQRadioButton" */ = {
+		21CB58F31FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQAnswerButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21CB58F41FAAC8AB00A74399 /* Debug */,
 				21CB58F51FAAC8AB00A74399 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21CB58F61FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQRadioButtonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21CB58F71FAAC8AB00A74399 /* Debug */,
-				21CB58F81FAAC8AB00A74399 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21CB58F91FAAC8AB00A74399 /* Build configuration list for PBXNativeTarget "YQRadioButtonUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21CB58FA1FAAC8AB00A74399 /* Debug */,
-				21CB58FB1FAAC8AB00A74399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

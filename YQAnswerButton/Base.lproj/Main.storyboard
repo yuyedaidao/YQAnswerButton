@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YQAnswerButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPO-2m-mVP" customClass="YQAnswerButton" customModule="YQAnswerButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="80" width="343" height="20.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="我是一个粉刷匠"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="flagWidth">
+                                        <real key="value" value="32"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="flagLabel" value="A"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcQ-Gu-ORR" customClass="YQAnswerButton" customModule="YQAnswerButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="115.5" width="343" height="20.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="粉刷本领强"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="flagLabel" value="B"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2S-Rf-kQb" customClass="YQAnswerButton" customModule="YQAnswerButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="151" width="343" height="41"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="我要把那新房子刷得更漂亮,刷了房顶有刷墙,刷得飞舞忙"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ibState">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpk-7A-dAu" customClass="YQAnswerButton" customModule="YQAnswerButton" customModuleProvider="target">
+                                <rect key="frame" x="16" y="207" width="343" height="20.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="哎呀,我的小鼻子...小你妹啊"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ibState">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NcQ-Gu-ORR" firstAttribute="leading" secondItem="XPO-2m-mVP" secondAttribute="leading" id="1NV-xQ-GRZ"/>
+                            <constraint firstItem="NcQ-Gu-ORR" firstAttribute="trailing" secondItem="XPO-2m-mVP" secondAttribute="trailing" id="6wY-vw-1VX"/>
+                            <constraint firstItem="gpk-7A-dAu" firstAttribute="trailing" secondItem="E2S-Rf-kQb" secondAttribute="trailing" id="8O1-q5-2hH"/>
+                            <constraint firstItem="XPO-2m-mVP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="E2B-b3-kz4"/>
+                            <constraint firstItem="E2S-Rf-kQb" firstAttribute="leading" secondItem="NcQ-Gu-ORR" secondAttribute="leading" id="OrF-Wb-8UP"/>
+                            <constraint firstItem="XPO-2m-mVP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="SP6-QP-qbq"/>
+                            <constraint firstItem="E2S-Rf-kQb" firstAttribute="trailing" secondItem="NcQ-Gu-ORR" secondAttribute="trailing" id="UjN-FB-whh"/>
+                            <constraint firstItem="NcQ-Gu-ORR" firstAttribute="top" secondItem="XPO-2m-mVP" secondAttribute="bottom" constant="15" id="gmd-Vc-XdE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XPO-2m-mVP" secondAttribute="trailing" constant="16" id="k0g-he-z2M"/>
+                            <constraint firstItem="E2S-Rf-kQb" firstAttribute="top" secondItem="NcQ-Gu-ORR" secondAttribute="bottom" constant="15" id="lod-iF-ZKW"/>
+                            <constraint firstItem="gpk-7A-dAu" firstAttribute="top" secondItem="E2S-Rf-kQb" secondAttribute="bottom" constant="15" id="sPg-EJ-yQI"/>
+                            <constraint firstItem="gpk-7A-dAu" firstAttribute="leading" secondItem="E2S-Rf-kQb" secondAttribute="leading" id="udn-ks-tCC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
