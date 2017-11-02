@@ -76,7 +76,8 @@ enum YQAnswerButtonState: Int {
 
 
 @IBDesignable
-class YQAnswerButton: UIControl {
+
+public class YQAnswerButton: UIControl {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -182,7 +183,7 @@ class YQAnswerButton: UIControl {
         commonInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
     }
@@ -286,7 +287,7 @@ class YQAnswerButton: UIControl {
         }
     }
     
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         let size = rightTextLabel.sizeThatFits(UIScreen.main.bounds.size)
         return CGSize(width: size.width + flagWidth, height: size.height)
     }

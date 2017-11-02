@@ -15,8 +15,8 @@
 		21CB58FE1FAAC96300A74399 /* YQAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */; };
 		21DF01A21FAB364C0092407C /* yqiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */; };
 		21DF01AE1FAB6EA60092407C /* YQAnswerButtonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DF01AC1FAB6EA50092407C /* YQAnswerButtonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21DF01B11FAB6EA60092407C /* YQAnswerButtonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */; };
-		21DF01B31FAB6EA60092407C /* YQAnswerButtonFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		21DF01B11FAB6EA60092407C /* YQAnswerButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01AA1FAB6EA40092407C /* YQAnswerButton.framework */; };
+		21DF01B31FAB6EA60092407C /* YQAnswerButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01AA1FAB6EA40092407C /* YQAnswerButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				21DF01B31FAB6EA60092407C /* YQAnswerButtonFramework.framework in Embed Frameworks */,
+				21DF01B31FAB6EA60092407C /* YQAnswerButton.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 		21CB58DA1FAAC8AB00A74399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAnswerButton.swift; sourceTree = "<group>"; };
 		21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yqiconfont.ttf; sourceTree = "<group>"; };
-		21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YQAnswerButtonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF01AA1FAB6EA40092407C /* YQAnswerButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YQAnswerButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DF01AC1FAB6EA50092407C /* YQAnswerButtonFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnswerButtonFramework.h; sourceTree = "<group>"; };
 		21DF01AD1FAB6EA60092407C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21DF01B11FAB6EA60092407C /* YQAnswerButtonFramework.framework in Frameworks */,
+				21DF01B11FAB6EA60092407C /* YQAnswerButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */,
-				21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */,
+				21DF01AA1FAB6EA40092407C /* YQAnswerButton.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			);
 			name = YQAnswerButtonFramework;
 			productName = YQAnswerButtonFramework;
-			productReference = 21DF01AA1FAB6EA40092407C /* YQAnswerButtonFramework.framework */;
+			productReference = 21DF01AA1FAB6EA40092407C /* YQAnswerButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -441,7 +441,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQAnswerButtonFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = YQAnswerButton;
+				PRODUCT_NAME = YQAnswerButton;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,7 +467,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iqilu.YQAnswerButtonFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = YQAnswerButton;
+				PRODUCT_NAME = YQAnswerButton;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
