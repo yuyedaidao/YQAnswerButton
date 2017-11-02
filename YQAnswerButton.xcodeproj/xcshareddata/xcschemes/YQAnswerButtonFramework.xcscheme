@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21DF01A91FAB6EA40092407C"
+               BlueprintIdentifier = "21DF01CC1FAB78070092407C"
                BuildableName = "YQAnswerButtonFramework.framework"
                BlueprintName = "YQAnswerButtonFramework"
                ReferencedContainer = "container:YQAnswerButton.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21DF01A91FAB6EA40092407C"
+            BlueprintIdentifier = "21DF01CC1FAB78070092407C"
             BuildableName = "YQAnswerButtonFramework.framework"
             BlueprintName = "YQAnswerButtonFramework"
             ReferencedContainer = "container:YQAnswerButton.xcodeproj">
@@ -65,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21DF01A91FAB6EA40092407C"
+            BlueprintIdentifier = "21DF01CC1FAB78070092407C"
             BuildableName = "YQAnswerButtonFramework.framework"
             BlueprintName = "YQAnswerButtonFramework"
             ReferencedContainer = "container:YQAnswerButton.xcodeproj">

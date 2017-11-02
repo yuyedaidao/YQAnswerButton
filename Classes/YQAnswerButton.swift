@@ -88,7 +88,7 @@ public class YQAnswerButton: UIControl {
     */
     
     
-    @IBInspectable var flagWidth: CGFloat = 30 {
+    @IBInspectable public var flagWidth: CGFloat = 30 {
         didSet {
             if let constraint = flagWidthConstraint {
                 constraint.constant = flagWidth
@@ -96,19 +96,19 @@ public class YQAnswerButton: UIControl {
         }
     }
     
-    @IBInspectable var text: String? = " " {
+    @IBInspectable public var text: String? = " " {
         didSet {
             rightTextLabel.text = text
         }
     }
 
-    @IBInspectable var font: UIFont = UIFont.systemFont(ofSize: 17) {
+    @IBInspectable public var font: UIFont = UIFont.systemFont(ofSize: 17) {
         didSet {
             rightTextLabel.font = font
         }
     }
 
-    @IBInspectable var flagLabel: String? = "A" {
+    @IBInspectable public var flagLabel: String? = "A" {
         didSet {
             if buttonState == .normal {
                 leftTextLabel.text = flagLabel
@@ -116,7 +116,7 @@ public class YQAnswerButton: UIControl {
         }
     }
     
-    @IBInspectable var flagLabelFont: UIFont = UIFont.systemFont(ofSize: 17) {
+    @IBInspectable public var flagLabelFont: UIFont = UIFont.systemFont(ofSize: 17) {
         didSet {
             if buttonState == .normal {
                 sizeAssistView.font = flagLabelFont
@@ -126,7 +126,7 @@ public class YQAnswerButton: UIControl {
     }
     
     //MARK:此属性完全是为了解决buttonState不能引出IBInspectable才声明的
-    @IBInspectable var ibState: Int = 0 {
+    @IBInspectable public var ibState: Int = 0 {
         didSet {
             guard let state = YQAnswerButtonState(rawValue: ibState) else {
                 return
@@ -135,7 +135,7 @@ public class YQAnswerButton: UIControl {
         }
     }
     
-    var buttonState: YQAnswerButtonState = .normal  {
+    public var buttonState: YQAnswerButtonState = .normal  {
         didSet {
             updateState(buttonState)
         }
