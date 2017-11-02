@@ -14,6 +14,7 @@
 		21CB58D91FAAC8AB00A74399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D71FAAC8AB00A74399 /* LaunchScreen.storyboard */; };
 		21CB58FE1FAAC96300A74399 /* YQAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */; };
 		21DF01A21FAB364C0092407C /* yqiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */; };
+		21DF01A41FAB682A0092407C /* IMG_2587.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21DF01A31FAB682A0092407C /* IMG_2587.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		21CB58DA1FAAC8AB00A74399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAnswerButton.swift; sourceTree = "<group>"; };
 		21DF01A11FAB0F2D0092407C /* yqiconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yqiconfont.ttf; sourceTree = "<group>"; };
+		21DF01A31FAB682A0092407C /* IMG_2587.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2587.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				21CB58D51FAAC8AB00A74399 /* Assets.xcassets */,
 				21CB58D71FAAC8AB00A74399 /* LaunchScreen.storyboard */,
 				21CB58DA1FAAC8AB00A74399 /* Info.plist */,
+				21DF01A31FAB682A0092407C /* IMG_2587.jpg */,
 			);
 			path = YQAnswerButton;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DF01A41FAB682A0092407C /* IMG_2587.jpg in Resources */,
 				21DF01A21FAB364C0092407C /* yqiconfont.ttf in Resources */,
 				21CB58D91FAAC8AB00A74399 /* LaunchScreen.storyboard in Resources */,
 				21CB58D61FAAC8AB00A74399 /* Assets.xcassets in Resources */,
