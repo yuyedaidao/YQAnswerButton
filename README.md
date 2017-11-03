@@ -7,5 +7,18 @@
 
 
 ### YOU KNOW
-
+----
 ![image](https://github.com/yuyedaidao/YQAnswerButton/blob/master/IMG_2587.jpg)
+
+### INSTALL
+----
+. Carthage
+  ```
+  yuyedaidao/YQAnswerButton
+  ```
+. Cocoapods
+
+  ```
+  稍后
+  ```
+ 
