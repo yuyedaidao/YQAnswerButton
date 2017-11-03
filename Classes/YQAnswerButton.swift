@@ -22,12 +22,12 @@ class CircleView: UIView {
     }
     var color: UIColor? = UIColor.darkText
     
-    init() {
+    public init() {
         super.init(frame: CGRect.zero)
         commonInit()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }
@@ -68,7 +68,7 @@ class CircleView: UIView {
     }
 }
 
-enum YQAnswerButtonState: Int {
+public enum YQAnswerButtonState: Int {
     case normal
     case right
     case error
@@ -159,11 +159,13 @@ public class YQAnswerButton: UIControl {
         .error: UIColor.white
     ]
     
+    //按钮为正确或者错误状态时
     private var clickedFont: UIFont {
-        guard let font = UIFont(name: "iconfont", size: font.pointSize) else {
-            fatalError("请先打开Info.plist文件,增加一个新的Array类型的键,键名设置为UIAppFonts(Fonts provided by application),增加字体的文件名:yqiconfont.ttf")
+        let name = "iconfont"
+        if UIFont.fontNames(forFamilyName: name).isEmpty {
+            FontLoader.loadFont(name)
         }
-        return font
+        return UIFont(name: name, size: flagLabelFont.pointSize)!
     }
     
     private var sizeAssistView = UILabel()
@@ -266,21 +268,21 @@ public class YQAnswerButton: UIControl {
         
     }
     
-    func setTextColor(_ color: UIColor, `for` state: YQAnswerButtonState) {
+    public func setTextColor(_ color: UIColor, `for` state: YQAnswerButtonState) {
         textColors[state] = color
         if state == buttonState {
             rightTextLabel.textColor = color
         }
     }
     
-    func setFlagViewColor(_ color: UIColor, `for` state: YQAnswerButtonState) {
+    public func setFlagViewColor(_ color: UIColor, `for` state: YQAnswerButtonState) {
         flagViewColors[state] = color
         if state == buttonState {
             leftBgView.color = color
         }
     }
     
-    func setFlagLabelColors(_ color: UIColor, `for` state: YQAnswerButtonState) {
+    public func setFlagLabelColors(_ color: UIColor, `for` state: YQAnswerButtonState) {
         flagLabelColors[state] = color
         if state == buttonState {
             leftTextLabel.textColor = color
@@ -292,4 +294,33 @@ public class YQAnswerButton: UIControl {
         return CGSize(width: size.width + flagWidth, height: size.height)
     }
     
+}
+
+// from FontAwesome
+private class FontLoader {
+    class func loadFont(_ name: String) {
+        let bundle = Bundle(for: FontLoader.self)
+        let identifier = bundle.bundleIdentifier
+        
+        var fontURL: URL
+        if identifier?.hasPrefix("org.cocoapods") == true {
+            // If this framework is added using CocoaPods, resources is placed under a subdirectory
+            fontURL = bundle.url(forResource: name, withExtension: "ttf", subdirectory: "FontAwesome.swift.bundle")!
+        } else {
+            fontURL = bundle.url(forResource: name, withExtension: "ttf")!
+        }
+        
+        guard
+            let data = try? Data(contentsOf: fontURL),
+            let provider = CGDataProvider(data: data as CFData),
+            let font = CGFont(provider)
+            else { return }
+        
+        var error: Unmanaged<CFError>?
+        if !CTFontManagerRegisterGraphicsFont(font, &error) {
+            let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
+            guard let nsError = error?.takeUnretainedValue() as AnyObject as? NSError else { return }
+            NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
+        }
+    }
 }
