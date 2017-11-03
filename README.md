@@ -6,19 +6,17 @@
 
 
 
-### YOU KNOW
+### You know
 ----
 ![image](https://github.com/yuyedaidao/YQAnswerButton/blob/master/IMG_2587.jpg)
 
-### INSTALL
+### Installation
 ----
-. Carthage
+#### Carthage
   ```
-  yuyedaidao/YQAnswerButton
+  github "yuyedaidao/YQAnswerButton"
   ```
-. Cocoapods
-
+#### Cocoapods
   ```
   稍后
   ```
- 
