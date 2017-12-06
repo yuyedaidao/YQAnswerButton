@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		212FA7D51FAC477E00542E25 /* YQAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */; };
-		212FA7D61FAC478300542E25 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21DF01A11FAB0F2D0092407C /* iconfont.ttf */; };
+		21B6E4F71FD7CF990055955D /* yqabfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B6E4F61FD7CF990055955D /* yqabfont.ttf */; };
+		21B6E4F81FD7CF990055955D /* yqabfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B6E4F61FD7CF990055955D /* yqabfont.ttf */; };
 		21CB58CF1FAAC8AB00A74399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58CE1FAAC8AB00A74399 /* AppDelegate.swift */; };
 		21CB58D11FAAC8AB00A74399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58D01FAAC8AB00A74399 /* ViewController.swift */; };
 		21CB58D41FAAC8AB00A74399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D21FAAC8AB00A74399 /* Main.storyboard */; };
 		21CB58D61FAAC8AB00A74399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D51FAAC8AB00A74399 /* Assets.xcassets */; };
 		21CB58D91FAAC8AB00A74399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB58D71FAAC8AB00A74399 /* LaunchScreen.storyboard */; };
 		21CB58FE1FAAC96300A74399 /* YQAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */; };
-		21DF01A21FAB364C0092407C /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21DF01A11FAB0F2D0092407C /* iconfont.ttf */; };
 		21DF01D11FAB78070092407C /* YQAnswerButtonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DF01CF1FAB78070092407C /* YQAnswerButtonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21DF01D41FAB78070092407C /* YQAnswerButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01CD1FAB78070092407C /* YQAnswerButton.framework */; };
 		21DF01D51FAB78070092407C /* YQAnswerButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF01CD1FAB78070092407C /* YQAnswerButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21B6E4F61FD7CF990055955D /* yqabfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yqabfont.ttf; sourceTree = "<group>"; };
 		21CB58CB1FAAC8AB00A74399 /* YQAnswerButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQAnswerButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CB58CE1FAAC8AB00A74399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21CB58D01FAAC8AB00A74399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		21CB58D81FAAC8AB00A74399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21CB58DA1FAAC8AB00A74399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAnswerButton.swift; sourceTree = "<group>"; };
-		21DF01A11FAB0F2D0092407C /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		21DF01AC1FAB6EA50092407C /* YQAnswerButtonFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnswerButtonFramework.h; sourceTree = "<group>"; };
 		21DF01AD1FAB6EA60092407C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DF01C11FAB76440092407C /* YQAnswerButtonDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnswerButtonDemo.h; sourceTree = "<group>"; };
@@ -120,8 +120,8 @@
 		21CB58FC1FAAC93900A74399 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				21B6E4F61FD7CF990055955D /* yqabfont.ttf */,
 				21CB58FD1FAAC96300A74399 /* YQAnswerButton.swift */,
-				21DF01A11FAB0F2D0092407C /* iconfont.ttf */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -248,7 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21DF01A21FAB364C0092407C /* iconfont.ttf in Resources */,
+				21B6E4F71FD7CF990055955D /* yqabfont.ttf in Resources */,
 				21CB58D91FAAC8AB00A74399 /* LaunchScreen.storyboard in Resources */,
 				21CB58D61FAAC8AB00A74399 /* Assets.xcassets in Resources */,
 				21CB58D41FAAC8AB00A74399 /* Main.storyboard in Resources */,
@@ -259,7 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212FA7D61FAC478300542E25 /* iconfont.ttf in Resources */,
+				21B6E4F81FD7CF990055955D /* yqabfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

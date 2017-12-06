@@ -38,6 +38,7 @@ class CircleView: UIView {
     }
     
     func commonInit() {
+        isUserInteractionEnabled = false
         circle.lineWidth = 1
         updatePath()
         layer.addSublayer(circle)
@@ -161,7 +162,7 @@ public class YQAnswerButton: UIControl {
     
     //按钮为正确或者错误状态时
     private var clickedFont: UIFont {
-        let name = "iconfont"
+        let name = "yqabfont"
         if UIFont.fontNames(forFamilyName: name).isEmpty {
             FontLoader.loadFont(name)
         }
